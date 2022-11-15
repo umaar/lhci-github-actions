@@ -7,7 +7,7 @@ const getRandomCocktail = async () => {
   const response = await fetch(
     "https://www.thecocktaildb.com/api/json/v1/1/random.php"
   );
-  // await sleep(5000);
+  await sleep(5000);
   return await response.json();
 };
 
